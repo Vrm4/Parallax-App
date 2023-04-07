@@ -12,7 +12,6 @@ import miniWorld from "../images/miniWorld.png";
 import aAnda from "../images/a-a.png";
 import aMoon from "../images/astronaut-moon.png";
 import jupiter from "../images/jupiter.png";
-
 import Image from "next/image";
 import { useEffect, useState } from "react";
 export default function Home() {
@@ -20,7 +19,7 @@ export default function Home() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 600 && window.innerHeight < 800);
+      setIsMobile(window.innerWidth < 1300 && window.innerHeight < 800);
     };
 
     handleResize();
@@ -105,6 +104,7 @@ export default function Home() {
             width={120}
             height={120}
             style={{ marginLeft: "45%" }}
+            className="image1"
           />
         </ParallaxLayer>
 
@@ -225,6 +225,7 @@ export default function Home() {
             width={120}
             height={120}
             style={{ marginLeft: "45%" }}
+            className="image2"
           />
         </ParallaxLayer>
 

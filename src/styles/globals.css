@@ -20,3 +20,11 @@ body {
     color: white;
     margin-top: 15px;
 }
+@media (max-width: 1400px) {
+    .image1 {
+      margin-left: 40% !important;
+    }
+    .image2 {
+        margin-left: 39% !important;
+    }
+  }
