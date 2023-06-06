@@ -1,4 +1,8 @@
 # Parallax-App
+
+## Photos
+
+Photographs on the website were designed by [Freepik](https://www.freepik.com/)
  
 ## Preview
 
